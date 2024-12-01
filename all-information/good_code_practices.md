@@ -1,0 +1,22 @@
+# Good Code Practices
+- **Up to date:** Make sure your code is up to date by pulling from the default branch
+    git pull origin main
+- **No directly editing main branch:** NEVER edit in the main branch
+    - Instead, create a branch, then switch to it
+        - git checkout -b name/issue
+            - Example: git checkout -b allison/files
+        - git switch name/issue
+            - Example: git switch allison/files
+- **Push changes ONLY to your branch:** Add, commit, push
+    - git add "file-path"
+        - Example: git add "src/app/home/page.js"
+        - To ensure the path is correct, see if it's nested under any folders (and if it is, make sure to include the folder in the file path)
+    - git commit -m "Commit message here"
+        - Example: git commit -m "Add header component to render for every page"
+    - git push origin name/issue
+        - Example: git push origin allison/files
+- **Create a pull request:** On GitHub, go to the pull requests tab on the GitHub repository
+    - Select the branch you want to merge with main
+    - Link the pull request with the issue you were assigned
+    - Add 2 reviewers - Allison (allison-pham) and Annie (annlee1226)
+    - Wait for Allison and Annie to merge your pull request with the main branch
