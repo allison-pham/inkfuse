@@ -41,3 +41,4 @@ next-env.d.ts
 
 # Additional files
 .env
+next.config.mjs
