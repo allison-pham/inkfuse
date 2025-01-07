@@ -13,4 +13,5 @@ model users {
   name       String
   email      String    @unique
   created_at DateTime? @default(now()) @db.Timestamptz(6)
+  avatar     String?   // Optional avatar field
 }
