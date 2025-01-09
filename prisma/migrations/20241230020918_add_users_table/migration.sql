@@ -4,7 +4,6 @@ CREATE TABLE "users" (
     "name" TEXT NOT NULL,
     "email" TEXT NOT NULL,
     "created_at" TIMESTAMPTZ(6) DEFAULT CURRENT_TIMESTAMP,
-    "avatar" TEXT, -- Pca0c
 
     CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 );
