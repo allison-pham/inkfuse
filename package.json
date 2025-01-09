@@ -11,9 +11,12 @@
   "dependencies": {
     "@prisma/client": "^6.1.0",
     "@supabase/supabase-js": "^2.47.10",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.4.7",
+    "jose": "^5.9.6",
     "mongoose": "^8.9.2",
-    "next": "15.0.3",
+    "next": "^15.0.3",
     "prisma": "^6.1.0",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
